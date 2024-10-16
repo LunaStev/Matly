@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "matly"
-version = "0.1.0"
+version = "0.1.1"
 description = "Matly"
 license = "MIT"
 authors = ["LunaStev <lunastev@gurmstudios.com>"]
@@ -9,7 +9,7 @@ packages = [{include = "matly", from = "src"}]
 repository = "https://github.com/lunastev/Matly"
 
 [tool.poetry.dependencies]
-python = ">=3.5,<4.0"
+python = ">=3.10,<4.0"
 requests = "*"
 beautifulsoup4 = "*"
 
